@@ -3,4 +3,5 @@
 /web/public/*
 /web/index.php
 /vendor/*
+!/vendor/youngx
 .idea
