@@ -1,0 +1,24 @@
+<?php
+$this->asset_style('register-success', 'css/zc4.css');
+?>
+<div class="w_940 zhuce_top">
+    <a style="display:none;" href="#">切换成为卖家注册&nbsp;&nbsp;&nbsp;&nbsp;>></a>
+    <div class="zhucetite">
+        <h2>买家注册</h2>
+
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="w_960 zclc">
+</div>
+
+<div class="w_940 zccg">
+
+    <div class="max_tite">
+        <h2>恭喜您，注册追尾成功！</h2>
+    </div>
+    <div class="cgtongzhi">
+        <p>邮箱激活邮件已发送到您的邮箱<span style="color:#0084ff"><?php echo $this->user->getEmail()?></span>,需要点击链接来完成注册。</p>
+    </div>
+    <a class="qianwangshouye" href="<?php echo $this->url('user-login')?>">现在登录</a>
+</div>

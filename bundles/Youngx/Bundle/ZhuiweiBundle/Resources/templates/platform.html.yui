@@ -1,0 +1,23 @@
+<?php
+$this->asset_style('salercentet', 'css/salercentet.css');
+
+?>
+<div class="center_nav w_960">
+    <ul>
+        <li class="w_126"><a href="<?php echo $this->url('platform', array('news' => 6))?>">平台服务介绍</a></li>
+        <li class="w_130"><a href="<?php echo $this->url('platform', array('news' => 7))?>">开店流程介绍</a></li>
+        <li class="w_163"><a href="<?php echo $this->url('platform', array('news' => 8))?>">产品介绍的最佳实践</a></li>
+        <li class="w_196"><a href="<?php echo $this->url('platform', array('news' => 9))?>">产品使用说明的最佳实践</a></li>
+        <li class="w_166"><a href="<?php echo $this->url('platform', array('news' => 10))?>">工厂介绍的最佳实践</a></li>
+        <li class="w_159"><a href="<?php echo $this->url('platform', array('news' => 11))?>">我的超值存货空间</a></li>
+        <div class="clear"></div>
+    </ul>
+</div>
+
+<div class="center_top w_960">
+    <h2><?php echo $this->archive->getTitle();?></h2>
+</div>
+<div class="center w_960">
+    <?php echo $this->news->getContent();?>
+    <div class="clear"></div>
+</div>

@@ -1,0 +1,82 @@
+/*------------------top-----------------------*/
+
+.w_960{width:960px; margin:0 auto;}
+.top{background:url(../images/TOPLINE.jpg) repeat-x center top #333333; height:79px; padding-top:4px; margin-bottom:6px;}
+.top_right{float:right; width:540px; height:79px;}
+.top_nav{height:37px;}
+.top_nav p{text-align:right; height:37px; line-height:37px;}
+.top_nav p a{margin:0 0 0 15px; color:#fff;}
+.top_search #text{background: url(../images/search_left.jpg) no-repeat left top; height:31px; width:371px; float:left; border:0; padding-left:60px; margin-right:10px;}
+.top_left{float:left; width:336px; height:79px;}
+
+/*___________center_________________-*/
+
+/*left*/
+.left{float:left; border:1px solid #e7e7e7; width:170px; margin-left:10px; margin-bottom:20px;}
+.left .left_logo{ color:#333333; text-align:center; padding:10px 0; border-bottom:1px solid #e7e7e7;}
+.left .left_logo img{border:1px solid #e7e7e7;}
+.left .left_logo p{height:30px; line-height:30px;}
+.left_guanzhu{background:url(../images/guanzhu_bg.jpg) no-repeat center center; height:30px; line-height:30px; text-align:center; color:#fff;}
+.left_guanzhu{border-bottom:1px solid #e7e7e7;}
+
+
+
+.directory{background:#fafafa;}
+.Category{ height:30px; background:#5e5e5e; line-height:30px;}
+.Category a{color:#fff; font-weight:bold; display:block; height:30px; text-indent:2em;}
+
+ dl{padding:10px 0;}
+ dl dt{height:30px; line-height:30px; }
+ dl dd{height:24px; line-height:24px;}
+ dl dt a{color:#454545; display:block; height:30px;text-indent:2em;}
+ dl dd a{color:#454545; display:block; height:24px;text-indent:3em;}
+ dl dt a:hover,dl dd a:hover{background:#e6e6e6;}
+
+/*right*/
+.huozhe{float:right; padding-right:20px;}
+.t_r{text-align:right;}
+.beizhu{ color:#999999;}
+.right{float:left; width:771px; background:url(../images/right_top.jpg) no-repeat left top; padding-top:26px;color:#333; padding-bottom:30px;}
+.right_top{height:47px; line-height:47px; border-bottom:1px solid #d3d3d3;}
+.right_top h2{ font-size:14px; color:#333; text-indent:42px;}
+
+.right_center_1{background:#f6f6f6;border-bottom:1px solid #d3d3d3;}
+.right_center_1 input,.right_center_2 input{margin-right: 8px;}
+.right_center_2{border-bottom:1px solid #d3d3d3; }
+.right_center table{ line-height:50px;}
+
+.bianjiqi{padding:20px 0;}
+.dijiaoer{padding:20px 0;}
+.tijiao{ display:block;width:139px; height:50px; background:#fdab0d; color:#fff; text-align:center; font-size:18px; font-weight:bold;}
+
+/*right_700*/
+.right_center_700{width:700px; margin:0 auto; margin-top:30px;border:1px solid #e3e3e3; }
+.t_c{text-align: center;}
+.cen_700_top{background:#f3f3f3; height:32px; line-height:32px;}
+.tianjiachanp{ display:block;width:70px; line-height:32px; text-align:center; color:#333;background:url(../images/700anniumin.jpg) no-repeat center center; margin-right:20px; margin:0 auto;}
+.xuanzeanniu{width:70px; line-height:32px; text-align:center; color:#333; float:left; background:url(../images/700anniumin.jpg) no-repeat center center; margin-right:20px;}
+.xuanzeanniumin{width:46px; line-height:32px; text-align:center; color:#333; float:left; background:url(../images/anniumin.jpg) no-repeat center center; margin-right:20px;}
+.b_e1 img{border:1px solid #e1e1e1;}
+
+.right_center_700 ul li{border-top:1px solid #b3b3b3;}
+.c_3 a{color:#333;}
+
+.t_i_2{text-indent:2em;}
+
+.right_center_700 ul li table{ line-height:30px; padding:10px 0; padding-top:6px;}
+
+.yifahuo{display:block; background:#dbdbdb; height:25px; width:83px; line-height:25px; color:#666; text-align:center;}
+.querenshouhuo{display:block; background:url(../images/naniu.jpg) no-repeat left top; height:25px; width:83px; line-height:25px; color:#333; text-align:center;}
+.sup{ border-top:1px dashed #fdab0d;}
+.yema{height:20px; line-height:20px; padding:5px 0; background:#f3f3f3;}
+.yema p{text-align:center;}
+.yema p a{ padding:1px 6px; background:#f9f9f9; border:1px solid #d0d0d0; color:#4e4e4e;}
+
+/*--------------foot--------------------*/
+
+.foot_1{height:180px; background:#2e3639;}
+.foot_1 a{color:#fff;}
+.foot_1 h2{font-size:16px; height:70px; line-height:70px;}
+.foot_cen_1{width:200px; float:left; height:180px; padding-left:40px;}
+.foot_cen_1 ul li{height:26px; line-height:26px;}
+.foot_2{height:20px; background:#1e2629;}

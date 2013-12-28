@@ -1,0 +1,18 @@
+{
+    "name": "youngx/youngx-standard-edition",
+    "description": "The \"Youngx Standard Edition\" distribution",
+    "type": "project",
+    "autoload": {
+        "psr-0": { "": "src/", "Youngx\\Bundle":"bundles/", "Youngx":"vendor/youngx/youngx/src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/http-foundation": "2.4.*@dev",
+        "symfony/routing": "2.4.*@dev",
+        "symfony/debug": "2.4.*@dev",
+        "phpmailer/phpmailer": "v5.2.6",
+        "doctrine/cache": "1.0.*@dev",
+        "monolog/monolog": "1.6.*@dev"
+    },
+    "minimum-stability": "dev"
+}

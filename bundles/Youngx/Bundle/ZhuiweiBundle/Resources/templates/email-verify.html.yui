@@ -1,0 +1,41 @@
+<?php
+$this->asset_style('register-success', 'css/zc4.css');
+?>
+<div class="w_940 zhuce_top">
+    <a style="display:none;" href="#">切换成为卖家注册&nbsp;&nbsp;&nbsp;&nbsp;>></a>
+    <div class="zhucetite">
+        <h2>邮箱激活</h2>
+
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="w_940 zccg">
+    <?php
+    if ($this->result == 0):
+    ?>
+        <div class="max_tite">
+            <h2>恭喜您，注册追尾成功！</h2>
+        </div>
+    <?php
+    endif;
+    ?>
+
+    <div class="cgtongzhi">
+        <p>
+            <?php
+            switch ($this->result) {
+                case 0:
+                    echo '激活成功！';
+                    break;
+                case 1:
+                    echo '链接已失效！';
+                    break;
+                default:
+                    echo '无效的链接！';
+            }
+            ?>
+            </p>
+    </div>
+    <a class="qianwangshouye" href="/">前往首页</a>
+</div>

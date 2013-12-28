@@ -1,0 +1,91 @@
+<?php $this->asset_style('buyer-sellers', 'css/mai_1.css');?>
+<div class="right_center_700">
+    <div class="cen_700_top"></div>
+
+    <ul>
+
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+
+                <tr>
+                    <td colspan="3" width="437" class="t_i_2">太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="245" class="beizhu">#81112365549</td>
+                </tr>
+                <tr>
+                    <td width="242" class="t_i_2">购买 【订货量：X单位 价格：X元】</td>
+                    <td width="195"><a class="yifahuo" href="#">确认收款</a></td>
+                </tr>
+                <tr>
+                    <td width="242" class="t_i_2">发货 【发货量：X单位 价格：X元】</td>
+                    <td width="195"><span class="yifahuo">已发货</span></td>
+                </tr>
+                <tr>
+                    <td width="242" class="t_i_2">接收 【收货量：X单位 价格：X元】</td>
+                    <td width="195"><a class="querenshouhuo" href="#">确认接收</a></td>
+                </tr>
+                <tr>
+                    <td width="242" class="t_i_2">验货 【验货量：X单位 价格：X元】</td>
+                    <td width="195"><a class="querenshouhuo" href="#">确认验货</a></td>
+                </tr>
+                <tr>
+                    <td width="242" class="t_i_2">退货 【退货量：X单位 价格：X元】</td>
+                    <td width="83"><a class="querenshouhuo" href="#">确认退货</a></td>
+                </tr>
+                <tr>
+                    <td width="242" class="t_i_2">付款 【收获量：X单位 价格：X元】</td>
+                    <td width="195"><a class="querenshouhuo" href="#">确认付款</a></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td width="242" class="t_i_2">收款 【销货量：X单位 价格：X元】</td>
+                    <td width="195">&nbsp;</td>
+                </tr>
+            </table>
+
+
+
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+
+
+</div>

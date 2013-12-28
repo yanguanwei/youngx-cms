@@ -1,0 +1,36 @@
+<?php
+$form = $this->widget('Form', array(
+        '#form' => $this->form,
+        '#skin' => 'horizontal'
+    ))->start();
+
+//$tab = $this->widget('Tab', array(
+//        'tabs' => $this->roles
+//    ));
+
+
+foreach ($this->roles as $role_id => $role_label) {
+    //$tab->startContent($role_id);
+
+    $permissionOptions = array();
+    foreach ($this->collection->getGroups() as $group => $groupLabel) {
+        foreach ($this->collection->getPermissions($group) as $name => $title) {
+            $permissionOptions[$groupLabel][$name] = $title;
+        }
+    }
+
+    echo $form->field("rolePermissions[{$role_id}]")->label($role_label)->select(array(
+            'multiple' => true,
+            '#options' => $permissionOptions,
+            '#chosen' => true,
+            'data-placeholder' => '请选择权限'
+        ));
+
+    //$tab->endContent();
+}
+
+//echo $tab;
+
+echo $form->submit();
+
+echo $form->end();

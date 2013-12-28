@@ -1,0 +1,155 @@
+<?php
+$this->asset_style('seller-product-form', 'css/M_1.css');
+?>
+<div class="right_center">
+    <div class="right_center_1">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="97">产品名称：</td>
+                <td colspan="3"><?php echo $this->widget->input('title', 'text')?></td>
+            </tr>
+            <tr>
+                <td class="t_r" width="97">品类：</td>
+                <td colspan="3"><?php echo $this->widget->input('category_id', 'cxselect_category')?></td>
+            </tr>
+            <tr>
+                <td class="t_r">上传照片：</td>
+                <td colspan="3">
+                    <?php
+                    echo $this->widget->input('pictures[0]', 'image_uploader', array(
+                            '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 0)),
+                            '#imagePlaceholder' => $this->asset_url('images/product-picture-main.jpg'),
+                            '#button' => '上传图片',
+                            '#previewWidth' => 100,
+                            '#previewHeight' => 100
+                        ));
+                    ?>
+
+                    <?php
+                    echo $this->widget->input('pictures[1]', 'image_uploader', array(
+                            '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 1)),
+                            '#imagePlaceholder' => $this->asset_url('images/product-picture.jpg'),
+                            '#button' => '上传图片',
+                            '#previewWidth' => 100,
+                            '#previewHeight' => 100
+                        ));
+                    ?>
+
+                    <?php
+                    echo $this->widget->input('pictures[2]', 'image_uploader', array(
+                            '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 2)),
+                            '#imagePlaceholder' => $this->asset_url('images/product-picture.jpg'),
+                            '#button' => '上传图片',
+                            '#previewWidth' => 100,
+                            '#previewHeight' => 100
+                        ));
+                    ?>
+
+                    <?php
+                    echo $this->widget->input('pictures[3]', 'image_uploader', array(
+                            '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 3)),
+                            '#imagePlaceholder' => $this->asset_url('images/product-picture.jpg'),
+                            '#button' => '上传图片',
+                            '#previewWidth' => 100,
+                            '#previewHeight' => 100
+                        ));
+                    ?>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="t_r">工厂货号：</td>
+                <td width="278"><?php echo $this->widget->input('code', 'text')?></td>
+                <td class="t_r" width="97">计量单位：</td>
+                <td width="281"><?php echo $this->widget->input('unit_id', 'vocabulary', array('#vocabulary' => 'unit'))?></td>
+            </tr>
+            <tr>
+                <td class="t_r">存货数量：</td>
+                <td><?php echo $this->widget->input('inventory', 'text')?></td>
+                <td class="t_r">产品价格：</td>
+                <td><input /></td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="right_center_2">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="97">外贸价：</td>
+                <td width="278"><?php echo $this->widget->input('trade_price[price]', 'text')?></td>
+                <td class="t_r" width="98">起订量：</td>
+                <td width="280"><?php echo $this->widget->input('trade_price[quantity]', 'text')?></td>
+            </tr>
+            <tr>
+                <td class="t_r">淘宝价：</td>
+                <td><?php echo $this->widget->input('taobao_price[price]', 'text')?></td>
+                <td class="t_r">起订量：</td>
+                <td><?php echo $this->widget->input('taobao_price[quantity]', 'text')?></td>
+            </tr>
+            <tr>
+                <td class="t_r">存货价：</td>
+                <td><?php echo $this->widget->input('stock_price[price]', 'text')?></td>
+                <td class="t_r">起订量：</td>
+                <td><?php echo $this->widget->input('stock_price[quantity]', 'text')?></td>
+            </tr>
+            <tr>
+                <td class="t_r">大客户推荐价：</td>
+                <td><?php echo $this->widget->input('customer_price[price]', 'text')?></td>
+                <td class="t_r">起订量：</td>
+                <td><?php echo $this->widget->input('customer_price[quantity]', 'text')?></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="right_center_1">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="96">出货时间：</td>
+                <td width="278"><?php echo $this->widget->input('shipping_time', 'text')?>
+                    <span class="beizhu">下单后至出货所需时间</span></td>
+                <td class="t_r" width="98">产品生产周期：</td>
+                <td width="281"><?php echo $this->widget->input('production_time', 'text')?>
+                    <span class="beizhu">生产新产品所需时间</span></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div class="right_center_2">
+        <table width="771" border="0">
+
+            <tr>
+                <td width="98"><span class="t_r">使用说明：</span></td>
+                <td><div class="bianjiqi"><?php echo $this->widget->input('introduction', 'umeditor', array(
+                                'style' => 'width:98%;height:200px'
+                            ))?></div></td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="right_center_2">
+        <table width="771" border="0">
+
+            <tr>
+                <td width="98"><span class="t_r">产品介绍：</span></td>
+                <td><div class="bianjiqi"><?php echo $this->widget->input('description', 'umeditor', array(
+                                'style' => 'width:98%;height:200px'
+                            ))?></div></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="dijiaoer">
+        <table width="771" border="0">
+            <tr>
+                <td width="576">&nbsp;&nbsp;</td>
+                <td width="137"><input type="submit" class="tijiao" value="保存并发布" /></td>
+                <td width="44">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+</div>

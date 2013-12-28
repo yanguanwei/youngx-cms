@@ -1,0 +1,117 @@
+<?php
+$this->asset_style('products', 'css/class.css');
+?>
+<div class="w_960 index_center">
+<div class="index_right">
+<div class="index_right_cen_recommend">
+<div class="index_right_cen_recommend_top">
+    <p>
+        <span>您的位置：<a href="/">网站首页</a>
+        <?php
+        if ($this->category) {
+            foreach ($this->category->getPaths() as $category) {
+                echo sprintf(' &nbsp;>&nbsp;<a href="%s">%s</a>', $this->url('products', array('category_id' => $category->getId())), $category->getLabel());
+            }
+        }
+        ?>
+        </span>
+        <a rel="#">默认</a>|<a class="guanzhu_bg" href="#">关注</a>&nbsp;&nbsp;&nbsp;|<a class="danjia_bg" href="#">单价</a></p>
+</div>
+<div class="index_right_cen_recommend_cen">
+<ul>
+<?php
+
+foreach ($this->products as $product) :
+    $url = $this->url('product-detail', array('product' => $product->getId()));
+?>
+    <li>
+        <a href="<?php echo $url?>">
+            <img src="<?php echo $this->image_url($product->getPicture())?>" width="180" height="180" />
+        </a>
+        <h2><a href="<?php echo $url?>"><?php echo $product->getTitle()?></a></h2>
+        <div class="index_cen_price">
+            <div class="index_cen_price_right">
+                <div class="guanzhu">
+                    <a href="#">关注&nbsp;&nbsp;1689</a>
+                </div>
+            </div>
+            <div class="index_cen_price_left">
+                <p class="index_price_xu">外贸价：<?php echo $product->getTradePrice()->getPrice()?></p>
+                <p class="index_price_xu">淘宝价：<?php echo $product->getTaobaoPrice()->getPrice()?></p>
+                <p><a href="#">存货价：<?php echo $product->getStockPrice()->getPrice()?></a></p>
+                <p><a href="#">推荐价：<?php echo $product->getCustomerPrice()->getPrice()?></a></p>
+            </div>
+            <div class="clear"></div>
+            <div class="seller_name">
+                <img src="<?php echo $this->asset_url("images/v_LOGO.jpg"); ?>" /><a href="#"><?php echo $product->getFactoryName()?></a>
+            </div>
+            <div class="border_160"></div>
+
+        </div>
+    </li>
+<?php
+endforeach;
+?>
+
+
+<div class="clear"></div>
+</ul>
+</div>
+
+<div class="yema">
+<?php
+if ($this->total) {
+    echo $this->widget('Paging', array(
+            '#page' => $this->page,
+            '#pageSize' => $this->pagesize,
+            '#total' => $this->total,
+            '#prev' => '上一页',
+            '#next' => '下一页'
+        ));
+}
+?>
+</div>
+</div>
+</div>
+
+<div class="index_left">
+    <div class="index_left_list_top">
+        <img src="<?php echo $this->asset_url("images/fenleibg_top.jpg"); ?>" width="176" height="4" />
+    </div>
+    <div class="index_left_list">
+
+        <?php echo $this->render('blocks/categories.html.yui');?>
+
+    </div>
+    <div class="index_left_list_bottom">
+        <img src="<?php echo $this->asset_url("images/fenleibg_bottom.jpg"); ?>" width="176" height="7" />
+    </div>
+
+    <div class="index_left_STO">
+        <div class="index_left_store">
+            <div class="index_left_store_logo">
+                <img src="<?php echo $this->asset_url("images/taipingniaologo.jpg"); ?>" width="146" height="132" />
+            </div>
+            <p>太平鸟风尚男装有限公司<br />
+                电话：0574-85388448
+            </p>
+        </div>
+
+        <div class="index_left_store">
+            <div class="index_left_store_logo">
+                <img src="<?php echo $this->asset_url("images/cituLOGO.jpg"); ?>" width="146" height="132" />
+            </div>
+            <p>太平鸟风尚男装有限公司<br />
+                电话：0574-85388448
+            </p>
+        </div>
+
+    </div>
+
+    <div class="inde_left_STO_more">
+        <a href="#">更多品牌推荐</a>
+    </div>
+</div>
+
+<div class="clear"></div>
+</div>

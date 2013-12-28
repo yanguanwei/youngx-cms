@@ -1,0 +1,89 @@
+<?php $this->asset_style('buyer-sellers', 'css/mai_3.css');?>
+<div class="right_center_700">
+    <div class="cen_700_top"></div>
+
+    <ul>
+
+
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td class="t_r" width="97">名字：</td>
+                    <td width="242">张三恩</td>
+                    <td width="98"></td>
+                    <td width="245"><a href="#">查看完整资料</a></td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td class="t_r" width="97">名字：</td>
+                    <td width="242">张三恩</td>
+                    <td width="98"></td>
+                    <td width="245"><a href="#">查看完整资料</a></td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td class="t_r" width="97">名字：</td>
+                    <td width="242">张三恩</td>
+                    <td width="98"></td>
+                    <td width="245"><a href="#">查看完整资料</a></td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td class="t_r" width="97">名字：</td>
+                    <td width="242">张三恩</td>
+                    <td width="98"></td>
+                    <td width="245"><a href="#">查看完整资料</a></td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td class="t_r" width="97">名字：</td>
+                    <td width="242">张三恩</td>
+                    <td width="98"></td>
+                    <td width="245"><a href="#">查看完整资料</a></td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td class="t_r" width="97">名字：</td>
+                    <td width="242">张三恩</td>
+                    <td width="98"></td>
+                    <td width="245"><a href="#">查看完整资料</a></td>
+                </tr>
+            </table>
+        </li>
+
+
+
+
+
+
+
+    </ul>
+
+    <div class="yema">
+        <p>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">下一页</a>
+        <div class="clear"></div>
+        </p>
+    </div>
+
+
+</div>

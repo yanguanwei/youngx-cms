@@ -1,0 +1,14 @@
+<?php
+$form = $this->widget('Form', array(
+        '#form' => $this->form,
+        //'#skin' => 'horizontal'
+    ))->start();
+
+echo $form->field('title')->label('标题')->text();
+echo $form->field('subtitle')->label('副标题')->text();
+echo $form->field('cover')->label('图片')->ckfinder();
+echo $form->field('content')->label('内容')->ckeditor();
+
+echo $form->submit();
+
+echo $form->end();

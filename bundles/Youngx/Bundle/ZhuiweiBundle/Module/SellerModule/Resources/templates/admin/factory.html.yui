@@ -1,0 +1,71 @@
+<?php
+
+$widget = $this->widget;
+
+$status = $widget->field('status')->label('审核状态')->radio(array(
+        '#options' => array(
+            '无效', '有效'
+        )
+    ));
+$name = $widget->field('name')->label('工厂名称')->text();
+$telephone = $widget->field('telephone')->label('固定电话')->text();
+$mobilephone = $widget->field('mobilephone')->label('手机号码')->text();
+$district_id = $widget->field('district_id')->label('地区')->select_district();
+$address = $widget->field('address')->label('详细地址')->text();
+$corporation = $widget->field('corporation')->label('法人')->text();
+$industries = $widget->field('industries')->label('主营业务')->textarea();
+$established_at = $widget->field('established_at')->label('成产时间')->datepicker();
+
+$area = $widget->field('area')->label('面积数')->text();
+$capacity = $widget->field('capacity')->label('月产能')->text();
+$description = $widget->field('description')->label('公司简介')->textarea();
+?>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 widget-container-span ui-sortable">
+        <?php
+
+        echo $this->widget('Box', array(
+                    '#title' => '基础信息',
+                    '#body' => array(
+                        '#content' => $status . $name . $corporation . $industries
+                    )
+                ));
+        ?>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 widget-container-span ui-sortable">
+        <?php
+        echo $this->widget('Box', array(
+                '#title' => '联系信息',
+                '#body' => array(
+                    '#content' => $telephone . $mobilephone . $district_id . $address
+                )
+            ));
+        ?>
+        <?php
+        echo $this->widget('Box', array(
+                '#title' => '厂房信息',
+                '#body' => array(
+                    '#content' => $area . $capacity
+                )
+            ));
+        ?>
+    </div>
+</div>
+
+<div class="space-24"></div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 widget-container-span ui-sortable">
+        <?php
+
+        echo $this->widget('Box', array(
+                '#title' => '详细信息',
+                '#body' => array(
+                    '#content' => $description
+                )
+            ));
+        ?>
+    </div>
+</div>

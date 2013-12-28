@@ -1,0 +1,27 @@
+<?php
+$this->assets()->registerPackage('jquery.tabletree');
+
+$code = <<<code
+$('#tabletree').tabletree({
+    url: function() {
+        return '{$this->request()->getUri()}';
+    },
+
+    data: function(data) {
+        return {
+            parent_id: data ? data.id : 0
+        };
+    },
+
+    format: function( data, child, next ) {
+        this.tr.append('<td>'+data['label']+'</td>');
+    }
+});
+code;
+
+$this->assets()->registerScriptCode('tabletree', $code);
+?>
+
+<table id="tabletree" class="tabletree table table-striped table-bordered table-hover">
+
+</table>

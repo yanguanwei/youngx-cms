@@ -1,0 +1,57 @@
+<?php
+$this->asset_style('seller-products', 'css/M_4.css');
+?>
+<div class="right_center_700">
+<div class="cen_700_top">
+    <table width="700" border="0">
+        <tr>
+            <td class="t_c" width="50"><input type="checkbox" name="selectall5" onclick="selectit()" /></td>
+            <td class="b_e1" width="320"><a class="xuanzeanniu" href="#">时间排序</a><a class="xuanzeanniumin" href="#">上架</a><a class="xuanzeanniumin" href="#">下架</a></td>
+            <td class="t_c" width="140">信息完整度</td>
+            <td class="t_c" width="90">发布时间</td>
+            <td class="t_c" width="100">
+                <a class="tianjiachanp" href="<?php echo $this->url('seller-product-add');?>">添加产品</a>
+            </td>
+        </tr>
+    </table>
+
+
+</div>
+
+<ul>
+<?php
+foreach ($this->products as $product):
+?>
+    <li>
+        <table width="700" border="0" height="65">
+            <tr>
+                <td class="t_c" width="50"><span class="t_c">
+      <input type="checkbox" name="selectall" onclick="selectit()" />
+    </span></td>
+                <td class="b_e1" width="70"><a href="#"><img src="<?php echo $this->image_url($product->getPicture())?>" width="48" height="48" /></a></td>
+                <td class="c_3" width="250"><a href="#"><?php echo $product->getTitle()?></a></td>
+                <td class="t_c" width="140">85%</td>
+                <td class="t_c" width="90"><?php echo date('Y-m-d', $product->getCreatedAt())?><br /><?php echo date('H:i', $product->getCreatedAt())?></td>
+                <td class="t_c" width="100"><a href="<?php echo $this->url('seller-product-edit', array('product' => $product->getId()));?>">编辑产品</a></td>
+            </tr>
+        </table>
+    </li>
+<?php
+endforeach;
+?>
+</ul>
+
+<div class="yema">
+    <?php
+    if ($this->total) {
+        echo $this->widget('Paging', array(
+                '#page' => $this->page,
+                '#pageSize' => $this->pagesize,
+                '#total' => $this->total,
+                '#prev' => '上一页',
+                '#next' => '下一页'
+            ));
+    }
+    ?>
+</div>
+</div>

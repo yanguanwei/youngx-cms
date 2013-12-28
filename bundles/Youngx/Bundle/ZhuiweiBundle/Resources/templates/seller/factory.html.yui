@@ -1,0 +1,236 @@
+<?php $this->asset_style('seller-companies', 'css/M_11.css');?>
+<div class="right_center">
+<div class="right_center_1">
+    <table width="771" border="0">
+        <tr>
+            <td class="t_r" width="97">工厂名称：</td>
+            <td colspan="3"><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">地址：</td>
+            <td width="97" ><form>
+                    <select name="shengfen">
+                        <option value="zjs">浙江省</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form></td>
+            <td width="97"><form>
+                    <select name="chengshi">
+                        <option value="ningbo">宁波</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form></td>
+            <td>
+                <form>
+                    <select name="quyu">
+                        <option value="haishuqu">海曙区</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="t_r">街道：</td>
+            <td colspan="3"><input  type="text" /></td>
+        </tr>
+    </table>
+
+</div>
+<div class="right_center_2">
+    <table width="771" border="0">
+        <tr>
+            <td class="t_r" width="97">主要负责人姓名：</td>
+            <td width="278"><input /></td>
+            <td class="t_r" width="98">手机号码：</td>
+            <td width="280"><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">固定电话：</td>
+            <td><input /></td>
+            <td class="t_r">电子邮箱：</td>
+            <td><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">QQ：</td>
+            <td><input /></td>
+            <td class="t_r">MSN：</td>
+            <td><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">SKYPE：</td>
+            <td><input /></td>
+            <td class="t_r">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+
+</div>
+
+<div class="right_center_1">
+    <table width="771" border="0">
+
+        <tr>
+            <td>电子商务负责人A</td>
+        </tr>
+
+    </table>
+
+
+</div>
+
+<div class="right_center_2">
+    <table width="771" border="0">
+        <tr>
+            <td class="t_r" width="97">姓名：</td>
+            <td width="278"><input /></td>
+            <td class="t_r" width="98">手机号码：</td>
+            <td width="280"><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">固定电话：</td>
+            <td><input /></td>
+            <td class="t_r">电子邮箱：</td>
+            <td><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">QQ：</td>
+            <td><input /></td>
+            <td class="t_r">MSN：</td>
+            <td><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">SKYPE：</td>
+            <td><input /></td>
+            <td class="t_r">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+
+
+
+
+</div>
+<div class="right_center_1">
+    <table width="771" border="0">
+
+        <tr>
+            <td>财务负责人</td>
+        </tr>
+
+    </table>
+
+
+</div>
+
+<div class="right_center_2">
+    <table width="771" border="0">
+        <tr>
+            <td class="t_r" width="97">姓名：</td>
+            <td width="278"><input /></td>
+            <td class="t_r" width="98">手机号码：</td>
+            <td width="280"><input /></td>
+        </tr>
+        <tr>
+            <td class="t_r">固定电话：</td>
+            <td><input /></td>
+            <td class="t_r">电子邮箱：</td>
+            <td><input /></td>
+        </tr>
+    </table>
+
+
+
+
+</div>
+
+<div class="right_center_2">
+    <table width="771" border="0">
+        <tr>
+            <td class="t_r" width="97">主营行业：</td>
+            <td colspan="3"><select name="shengfen2">
+                    <option value="zjs">浙江省</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td class="t_r">成立时间：</td>
+            <td width="97" ><form>
+                    <select name="shengfen">
+                        <option value="zjs">浙江省</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form></td>
+            <td width="97"><form>
+                    <select name="chengshi">
+                        <option value="ningbo">宁波</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form></td>
+            <td>
+                <form>
+                    <select name="quyu">
+                        <option value="haishuqu">海曙区</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="t_r">厂房面积：</td>
+            <td colspan="3"><input  type="text" />
+                平方米</td>
+        </tr>
+        <tr>
+            <td class="t_r">厂房图片：</td>
+            <td colspan="3"><input  type="text" /><input type="file" /></td>
+        </tr>
+        <tr>
+            <td class="t_r">&nbsp;</td>
+            <td colspan="3"><input  type="text" /><input type="file" /></td>
+        </tr>
+        <td class="t_r">&nbsp;</td>
+        <td colspan="3"><input  type="text" /><input type="file" /></td>
+        </tr>
+        <td class="t_r">&nbsp;</td>
+        <td colspan="3"><input  type="text" /><input type="file" /></td>
+        </tr>
+        <td class="t_r">&nbsp;</td>
+        <td colspan="3"><input  type="text" /><input type="file" /></td>
+        </tr>
+        <td class="t_r">月产能：</td>
+        <td colspan="3"><input  type="text" />
+            件</td>
+        </tr>
+
+    </table>
+
+</div>
+<div class="zhaopianshangchuan">
+
+</div>
+
+<div class="dijiaoer">
+    <table width="771" border="0">
+        <tr>
+            <td width="576">&nbsp;&nbsp;</td>
+            <td width="137"><a class="tijiao" href="#">保存并发布</a></td>
+            <td width="44">&nbsp;</td>
+        </tr>
+    </table>
+</div>
+
+</div>

@@ -1,0 +1,465 @@
+<?php
+$this->asset_style('index', 'css/index.css');
+?>
+
+<div class="w_960 index_center">
+<div class="index_right">
+<div class="index_right_banner">
+    <img src="<?php echo $this->asset_url("images/right_banner.jpg"); ?>" width="750" height="340" />
+</div>
+
+<div class="index_right_cen">
+    <div class="index_right_cen_top">
+        <img src="<?php echo $this->asset_url("images/daliangshangshi.jpg"); ?>" width="770" height="43" />
+    </div>
+    <div class="index_right_cen_center">
+        <ul>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </li>
+            <div class="clear"></div>
+            <ul>
+    </div>
+</div>
+
+<div class="index_right_cen">
+    <div class="index_right_cen_top">
+        <img src="<?php echo $this->asset_url("images/tongbushangshi.jpg"); ?>" width="770" height="43" />
+    </div>
+    <div class="index_right_cen_center">
+        <ul>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </li>
+            <div class="clear"></div>
+            <ul>
+    </div>
+</div>
+
+<div class="index_right_cen">
+    <div class="index_right_cen_top">
+        <img src="<?php echo $this->asset_url("images/zhuoyuezhiliang.jpg"); ?>" width="770" height="43" />
+    </div>
+    <div class="index_right_cen_center">
+        <ul>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </li>
+            <div class="clear"></div>
+            <ul>
+    </div>
+</div>
+
+<div class="index_right_cen_recommend">
+    <div class="index_right_cen_recommend_top">
+        <ul>
+            <li><a href="#">服装内衣</a></li>
+            <li><a href="#">服装内衣</a></li>
+            <li><a href="#">服装内衣</a></li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <div class="index_right_cen_recommend_cen">
+        <ul>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="<?php echo $this->asset_url("images/pic.jpg"); ?>" width="180" height="180" /></a>
+                <h2><a href="#">太平鸟男装2013秋装新款</a></h2>
+                <div class="index_cen_price">
+                    <div class="index_cen_price_right">
+                        <div class="guanzhu">
+                            <a href="#">关注&nbsp;&nbsp;1689</a>
+                        </div>
+                    </div>
+                    <div class="index_cen_price_left">
+                        <p class="index_price_xu">外贸价：219</p>
+                        <p class="index_price_xu">淘宝价：219</p>
+                        <p><a href="#">存货价：209</a></p>
+                        <p><a href="#">推荐价：199</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+</div>
+
+<div class="index_left">
+    <div class="index_left_list_top">
+        <img src="<?php echo $this->asset_url("images/fenleibg_top.jpg"); ?>" width="176" height="4" />
+    </div>
+    <div class="index_left_list">
+        <?php echo $this->render('blocks/categories.html.yui');?>
+    </div>
+    <div class="index_left_list_bottom">
+        <img src="<?php echo $this->asset_url("images/fenleibg_bottom.jpg"); ?>" width="176" height="7" />
+    </div>
+
+    <div class="index_left_STO">
+        <div class="index_left_store">
+            <div class="index_left_store_logo">
+                <img src="<?php echo $this->asset_url("images/taipingniaologo.jpg"); ?>" width="146" height="132" />
+            </div>
+            <p>太平鸟风尚男装有限公司<br />
+                电话：0574-85388448
+            </p>
+        </div>
+
+        <div class="index_left_store">
+            <div class="index_left_store_logo">
+                <img src="<?php echo $this->asset_url("images/cituLOGO.jpg"); ?>" width="146" height="132" />
+            </div>
+            <p>太平鸟风尚男装有限公司<br />
+                电话：0574-85388448
+            </p>
+        </div>
+
+    </div>
+
+    <div class="inde_left_STO_more">
+        <a href="#">更多品牌推荐</a>
+    </div>
+</div>
+
+<div class="clear"></div>
+</div>

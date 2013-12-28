@@ -1,0 +1,46 @@
+/*------------------top-----------------------*/
+
+.w_960{width:960px; margin:0 auto;}
+.w_940{ width:940px; margin:0 auto;}
+.top{background:url(../images/TOPLINE.jpg) repeat-x center top #333333; height:79px; padding-top:4px; margin-bottom:6px;}
+.top_right{float:right; width:540px; height:79px;}
+.top_nav{height:37px;}
+.top_nav p{text-align:right; height:37px; line-height:37px;}
+.top_nav p a{margin:0 0 0 15px; color:#fff;}
+.top_search #text{background: url(../images/search_left.jpg) no-repeat left top; height:31px; width:371px; float:left; border:0; padding-left:60px; margin-right:10px;}
+.top_left{float:left; width:336px; height:79px;}
+
+/*___________center_________________-*/
+.t_r{text-align:right;}
+
+
+.zhuce_top{padding:15px 0;}
+.zhuce_top a{float:right; display:block; width:154px; background:#f7f7f7; height:33px; line-height:33px; border:1px solid #e1e1e1; text-align:center; color:#ab0000;}
+.zhucetite{width:280px; background:url(../images/zhucetite.jpg) no-repeat right bottom;}
+.zhucetite h2{ font-size:32px; color:#333;}
+
+.zclc{height:99px; background:url(../images/zhuceliucheng.jpg) no-repeat left top; margin-bottom:45px;}
+.zcnr{border-top:1px solid #e7e7e7; margin-bottom:20px;}
+.zcnr_left{ line-height:48px; margin-bottom:20px; width:620px; float:left; border-right:1px solid #e7e7e7;}
+.zcnr_left table{border-bottom:1px solid #e7e7e7;}
+.zcnr_left .beizhu{color:#777777; padding-left:5px; }
+.zcnr_left a{color:#147cbf;}
+.zcnr_left a.zcanniu{ display:block; width:136px; height:36px; color:#fff;  line-height:36px; margin:16px 0; background:#b91332; font-size:20px; text-align:center;}
+
+.yanzhengtop{height:55px; background:#f8f8f8; border-bottom:1px solid #e7e7e7;}
+.yanzhengtop h2{line-height:55px; height:55px; text-indent:15px;}
+
+.zcnr_left a.yxyz{display:block; background:#b91332; line-height:36px; height:36px; font-size:14px; color:#fff; text-align:center; width:147px;}
+
+.zcnr_right{float:left; width:232px; padding:67px 20px 67px 37px;}
+.zcnr_right h2{height:48px; line-height:48px; font-size:24px; font-weight:normal;}
+.zcnr_right p{line-height:24px;}
+
+/*--------------foot--------------------*/
+
+.foot_1{height:180px; background:#2e3639;}
+.foot_1 a{color:#fff;}
+.foot_1 h2{font-size:16px; height:70px; line-height:70px;}
+.foot_cen_1{width:200px; float:left; height:180px; padding-left:40px;}
+.foot_cen_1 ul li{height:26px; line-height:26px;}
+.foot_2{height:20px; background:#1e2629;}

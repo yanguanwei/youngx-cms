@@ -1,0 +1,55 @@
+<?php
+$this->extend('layouts/main.html.yui');
+$this->asset_style('seller', 'css/ma.css');
+$content = $this->block('content')->start();
+?>
+<div class="M_center w_960">
+    <div class="left">
+        <div class="left_logo">
+            <img src="<?php echo $this->asset_url("images/maijia_logo.jpg"); ?>" width="58" height="58" />
+            <p>太平鸟风尚男装有限公司</p>
+        </div>
+        <div class="left_guanzhu">
+            <p>关注&nbsp;&nbsp;1689</p>
+        </div>
+
+        <div class="directory">
+            <div class="my_product">
+                <div class="Category"><a href="#">我的订单</a></div>
+
+                <dl>
+                    <dt><a href="<?php echo $this->url('buyer-orders-products');?>">正在交易中的产品</a></dt>
+                    <dt><a href="<?php echo $this->url('buyer-orders-products-complete');?>">已完成交易的产品</a></dt>
+                </dl>
+            </div>
+
+            <div class="my_buyer">
+                <div class="Category"><a href="#">我的卖家</a></div>
+
+                <dl>
+                    <dt><a href="<?php echo $this->url('buyer-sellers');?>">关注我的卖家</a></dt>
+                    <dt><a href="<?php echo $this->url('buyer-orders-sellers');?>">交易中的卖家</a></dt>
+                    <dt><a href="<?php echo $this->url('buyer-sellers');?>">已完成交易的卖家</a></dt>
+                    <dt><a href="<?php echo $this->url('buyer-ratings');?>">评价过的卖家及评价</a></dt>
+                </dl>
+            </div>
+
+
+
+            <div class="my_information">
+                <div class="Category"><a href="#">我的信息</a></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="right_top">
+            <h2><?php echo $this->block('subtitle');?></h2>
+        </div>
+        <?php echo $this->block('buyer-content');?>
+    </div>
+
+    <div class="clear"></div>
+</div>
+<?php $content->end();?>

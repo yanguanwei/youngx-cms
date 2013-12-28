@@ -1,0 +1,45 @@
+<?php $this->asset_style('register-verify', 'css/zc3.css');?>
+
+<div class="w_940 zhuce_top">
+    <a href="#">切换成为卖家注册&nbsp;&nbsp;&nbsp;&nbsp;>></a>
+    <div class="zhucetite">
+        <h2>买家注册</h2>
+
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="w_960 zclc">
+</div>
+
+<div class="w_940 zcnr">
+    <div class="zcnr_left">
+        <div class="yanzhengtop">
+            <h2>手机验证</h2>
+        </div>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">您的手机号码&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input />&nbsp;&nbsp;&nbsp;&nbsp;<img src="<?php echo $this->asset_url('images/lanse.jpg')?>" width="12" height="12" /><span class="beizhu">请输入您真实的邮箱，验证并激活您的账号</span></td>
+            </tr>
+            <tr>
+                <td class="t_r">验证码&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><input type="submit" class="yxyz" value="确认验证"></a></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div class="zcnr_right">
+        <h2>验证账户信息</h2>
+        <p>亲爱的买家用户，欢迎注册追尾网，为了让交易更加便捷，请认证填写您的资料。
+        </p>
+    </div>
+    <div class="clear"></div>
+
+
+</div>

@@ -1,0 +1,67 @@
+<?php
+
+$widget = $this->widget;
+
+$type = $widget->field('type')->label('公司类型')->vocabulary(array(
+        '#vocabulary' => 'company_type'
+    ));
+$name = $widget->field('name')->label('公司名称')->text();
+$uid = $widget->field('uid')->label('买家帐号')->select_user();
+$telephone = $widget->field('telephone')->label('固定电话')->text();
+$mobilephone = $widget->field('mobilephone')->label('手机号码')->text();
+$district_id = $widget->field('district_id')->label('地区')->select_district();
+$address = $widget->field('address')->label('详细地址')->text();
+$corporation = $widget->field('corporation')->label('法人')->text();
+$industries = $widget->field('industries')->label('主营业务')->textarea();
+
+$description = $widget->field('description')->label('公司简介')->textarea();
+?>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 widget-container-span ui-sortable">
+        <?php
+
+        echo $this->widget('Box', array(
+                    '#title' => '基础信息',
+                    '#body' => array(
+                        '#content' => $type . $name . $corporation . $industries
+                    )
+                ));
+        ?>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 widget-container-span ui-sortable">
+        <?php
+        echo $this->widget('Box', array(
+                '#title' => '超级粉',
+                '#body' => array(
+                    '#content' => $uid
+                )
+            ));
+        ?>
+        <?php
+        echo $this->widget('Box', array(
+                '#title' => '联系信息',
+                '#body' => array(
+                    '#content' => $telephone . $mobilephone . $district_id . $address
+                )
+            ));
+        ?>
+    </div>
+</div>
+
+<div class="space-24"></div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 widget-container-span ui-sortable">
+        <?php
+
+        echo $this->widget('Box', array(
+                '#title' => '详细信息',
+                '#body' => array(
+                    '#content' => $description
+                )
+            ));
+        ?>
+    </div>
+</div>

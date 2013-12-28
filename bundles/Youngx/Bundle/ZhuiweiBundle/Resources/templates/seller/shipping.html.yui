@@ -1,0 +1,65 @@
+<?php $this->asset_style('seller-companies', 'css/M_3.css');?>
+<div class="right_center">
+    <div class="right_center_1">
+
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="97">发货方式：</td>
+                <td><span class="t_r">
+      <input type="checkbox" name="selectall5" onclick="selectit()" />路运&nbsp;&nbsp;      <input type="checkbox" name="selectall5" onclick="selectit()" /> 铁运  &nbsp;&nbsp;    <input type="checkbox" name="selectall5" onclick="selectit()" /> 海运 &nbsp;&nbsp;   <input type="checkbox" name="selectall5" onclick="selectit()" />  空运
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="right_center_2">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="98">物流公司：</td>
+                <td>
+                    <div class="xuanzeyinhang">
+                        <input /><span class="beizhu">&nbsp;&nbsp;请输入常用物流公司的名称</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="t_r">&nbsp;</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">&nbsp;</td>
+                <td><input /></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div class="right_center_2">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="98">运费说明：</td>
+                <td><span class="bianjiqi">
+<img src="<?php echo $this->asset_url('images/bianjiqi.jpg')?>" alt="" width="640" height="454" /></span></td>
+            </tr>
+        </table>
+
+
+
+    </div>
+
+
+    <div class="dijiaoer">
+        <table width="771" border="0">
+            <tr>
+                <td width="576">&nbsp;&nbsp;</td>
+                <td width="137"><a class="tijiao" href="#">保存并发布</a></td>
+                <td width="44">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+</div>

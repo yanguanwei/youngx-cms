@@ -1,0 +1,20 @@
+<?php $this->extend('html.yui@Framework'); ?>
+
+<?php $this->block('title', '取回密码')?>
+
+<?php $body = $this->block('body')->start();?>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+
+            <?php
+            foreach ($this->flash_messages() as $type => $messages) {
+                foreach ($messages as $message) {
+                    echo sprintf('<div class="alert alert-%s">%s</div>', $type, $message);
+                }
+            }
+            ?>
+        </div><!--/fluid-row-->
+    </div><!--/.fluid-container-->
+
+<?php $body->end()?>

@@ -1,0 +1,138 @@
+<?php $this->asset_style('seller-companies', 'css/M_11.css');?>
+<div class="right_center">
+    <div class="right_center_1">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="97">设备名称：</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">单位：</td>
+                <td >
+                    <input />
+                    设备计量单位（比如：台、架）
+                </td>
+            </tr>
+            <tr>
+                <td class="t_r">数量：</td>
+                <td><input  type="text" /></td>
+            </tr>
+            <tr>
+                <td class="t_r">设备图片：</td>
+                <td><input  type="text" /><input type="file" /></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="dijiaoer">
+        <table width="771" border="0">
+            <tr>
+                <td width="576">&nbsp;&nbsp;</td>
+                <td width="137"><a class="tijiao" href="#">保存并发布</a></td>
+                <td width="44">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="right_top">
+        <h2>我的工厂设备</h2>
+    </div>
+    <div class="right_center_700">
+        <div class="cen_700_top"></div>
+        <ul>
+            <li>
+                <table width="700" border="0" height="65">
+                    <tr>
+                        <td class="t_c" width="50"><span class="t_c">
+       
+    </span></td>
+                        <td class="b_e1" width="70"><a href="#"><img src="<?php echo $this->asset_url('images/pro_pic.jpg')?>" width="48" height="48" /></a></td>
+                        <td class="c_3" width="250"><a href="#">包邮+盒装+双碟 Seagate/希捷 ST2000DM001 2T 台式机硬盘2TB硬盘</a></td>
+                        <td class="t_c" width="140">&nbsp;</td>
+                        <td class="t_c" width="90">2台</td>
+                        <td class="t_c" width="100">&nbsp;</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table width="700" border="0" height="65">
+                    <tr>
+                        <td class="t_c" width="50"><span class="t_c">
+       
+    </span></td>
+                        <td class="b_e1" width="70"><a href="#"><img src="<?php echo $this->asset_url('images/pro_pic.jpg')?>" width="48" height="48" /></a></td>
+                        <td class="c_3" width="250"><a href="#">包邮+盒装+双碟 Seagate/希捷 ST2000DM001 2T 台式机硬盘2TB硬盘</a></td>
+                        <td class="t_c" width="140">&nbsp;</td>
+                        <td class="t_c" width="90">2台</td>
+                        <td class="t_c" width="100">&nbsp;</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table width="700" border="0" height="65">
+                    <tr>
+                        <td class="t_c" width="50"><span class="t_c">
+       
+    </span></td>
+                        <td class="b_e1" width="70"><a href="#"><img src="<?php echo $this->asset_url('images/pro_pic.jpg')?>" width="48" height="48" /></a></td>
+                        <td class="c_3" width="250"><a href="#">包邮+盒装+双碟 Seagate/希捷 ST2000DM001 2T 台式机硬盘2TB硬盘</a></td>
+                        <td class="t_c" width="140">&nbsp;</td>
+                        <td class="t_c" width="90">2台</td>
+                        <td class="t_c" width="100">&nbsp;</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table width="700" border="0" height="65">
+                    <tr>
+                        <td class="t_c" width="50"><span class="t_c">
+       
+    </span></td>
+                        <td class="b_e1" width="70"><a href="#"><img src="<?php echo $this->asset_url('images/pro_pic.jpg')?>" width="48" height="48" /></a></td>
+                        <td class="c_3" width="250"><a href="#">包邮+盒装+双碟 Seagate/希捷 ST2000DM001 2T 台式机硬盘2TB硬盘</a></td>
+                        <td class="t_c" width="140">&nbsp;</td>
+                        <td class="t_c" width="90">2台</td>
+                        <td class="t_c" width="100">&nbsp;</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table width="700" border="0" height="65">
+                    <tr>
+                        <td class="t_c" width="50"><span class="t_c">
+       
+    </span></td>
+                        <td class="b_e1" width="70"><a href="#"><img src="<?php echo $this->asset_url('images/pro_pic.jpg')?>" width="48" height="48" /></a></td>
+                        <td class="c_3" width="250"><a href="#">包邮+盒装+双碟 Seagate/希捷 ST2000DM001 2T 台式机硬盘2TB硬盘</a></td>
+                        <td class="t_c" width="140">&nbsp;</td>
+                        <td class="t_c" width="90">2台</td>
+                        <td class="t_c" width="100">&nbsp;</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table width="700" border="0" height="65">
+                    <tr>
+                        <td class="t_c" width="50"><span class="t_c">
+       
+    </span></td>
+                        <td class="b_e1" width="70"><a href="#"><img src="<?php echo $this->asset_url('images/pro_pic.jpg')?>" width="48" height="48" /></a></td>
+                        <td class="c_3" width="250"><a href="#">包邮+盒装+双碟 Seagate/希捷 ST2000DM001 2T 台式机硬盘2TB硬盘</a></td>
+                        <td class="t_c" width="140">&nbsp;</td>
+                        <td class="t_c" width="90">2台</td>
+                        <td class="t_c" width="100">&nbsp;</td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+</div>

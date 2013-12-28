@@ -1,0 +1,12 @@
+<?php
+$this->extend('layouts/html.yui');
+
+$body = $this->block('body')->start();
+
+echo $this->render('blocks/header.html.yui');
+
+echo $this->block('content');
+
+echo $this->render('blocks/footer.html.yui');
+
+$body->end();

@@ -1,0 +1,30 @@
+<?php
+
+if (false === ($html = $this->cache('zhuiwei.categories'))) {
+    $data = $this->repository()->query('category')->ancestral()->standard()->orderly()->all();
+    $html = '<ul>';
+    foreach ($data as $category) {
+        $html .= sprintf(
+            '<li><a class="white" href="%s">%s</a>',
+            $this->url('products', array('category_id' => $category->getId())),
+            $category->getLabel()
+        );
+        if ($subCategories = $category->getChildren()) {
+            $html .= '<ul>';
+            foreach ($subCategories as $subCategory) {
+                $html .= sprintf(
+                    '<li><a href="%s">%s</a></li>',
+                    $this->url('products', array('category_id' => $subCategory->getId())),
+                    $subCategory->getLabel()
+                );
+            }
+            $html .= '</ul>';
+        }
+        $html .= '</li>';
+    }
+    $html .= '</ul>';
+
+    $this->cache('zhuiwei.categories', $html, 86400);
+}
+
+echo $html;

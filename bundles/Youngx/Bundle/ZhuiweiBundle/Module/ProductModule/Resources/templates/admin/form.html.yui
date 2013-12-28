@@ -1,0 +1,167 @@
+<?php
+
+$form = $this->widget;
+
+//$category = $form->field('category_id')->label('品类')->select_category(array(
+//        '#chosen' => array('search_contains' => true),
+//    ));
+
+$category = $form->field('category_id')->label('品类')->cxselect_category();
+
+$code = $form->field('code')->label('产品编号')->text();
+$title = $form->field('title')->label('产品标题')->text();
+$status = $form->field('status')->label('状态')->select_product_status();
+
+$unit = $form->field('unit_id')->label('单位')->vocabulary(array(
+        '#vocabulary' => 'unit'
+    ));
+$inventory = $form->field('inventory')->label('库存')->text();
+$weight = $form->field('weight')->label('产品重量')->text(array(
+        '#addon' => array(
+            'append' => 'KG'
+        ),
+        'class' => 'col-xs-1'
+    ));
+
+$production_time = $form->field('production_time')->label('生产时间')->text(array(
+        '#addon' => array(
+            'append' => '天'
+        )
+    ));
+$shipping_time = $form->field('shipping_time')->label('发货时间')->text(array(
+        '#addon' => array(
+            'append' => '天'
+        )
+    ));
+
+$usage = $form->field('introduction')->label('使用说明')->textarea();
+$description = $form->field('description')->label('产品描述')->ckeditor();
+
+$uid = $form->field('uid')->label('卖家帐号')->select_user();
+
+$trade_price = $form->field('trade_price')->label('外贸价')
+    ->input('trade_price[price]', 'text',  array('placeholder' => '价格'))
+    ->input('trade_price[op]', 'product-price-op')
+    ->input('trade_price[quantity]', 'text', array('placeholder' => '起订量'));
+
+$taobao_price = $form->field('taobao_price[price]')->label('淘宝价')
+    ->text(array('placeholder' => '价格'))
+    ->input('taobao_price[op]', 'product-price-op')
+    ->input('taobao_price[quantity]', 'text', array('placeholder' => '起订量'));
+
+
+$stock_price = $form->field('stock_price[price]')->label('库存价')
+    ->text(array('placeholder' => '价格'))
+    ->input('stock_price[op]', 'product-price-op')
+    ->input('stock_price[quantity]', 'text', array('placeholder' => '起订量'));
+
+
+$customer_price = $form->field('customer_price[price]')->label('大客户推荐价')
+    ->text(array('placeholder' => '价格'))
+    ->input('customer_price[op]', 'product-price-op')
+    ->input('customer_price[quantity]', 'text', array('placeholder' => '起订量'));
+
+$picture1 = $this->widget->input('pictures[0]', 'image_uploader', array(
+        '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 0)),
+        '#imagePlaceholder' => $this->asset_url('/Zhuiwei/images/product-picture-main.jpg'),
+        '#button' => '上传图片',
+        '#previewWidth' => 100,
+        '#previewHeight' => 100
+    ));
+$picture2 = $this->widget->input('pictures[1]', 'image_uploader', array(
+        '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 1)),
+        '#imagePlaceholder' => $this->asset_url('/Zhuiwei/images/product-picture.jpg'),
+        '#button' => '上传图片',
+        '#previewWidth' => 100,
+        '#previewHeight' => 100
+    ));
+$picture3 = $this->widget->input('pictures[2]', 'image_uploader', array(
+        '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 2)),
+        '#imagePlaceholder' => $this->asset_url('/Zhuiwei/images/product-picture.jpg'),
+        '#button' => '上传图片',
+        '#previewWidth' => 100,
+        '#previewHeight' => 100
+    ));
+$picture4 = $this->widget->input('pictures[3]', 'image_uploader', array(
+        '#url' => $this->url('product-picture', array('product' => $this->product_id, 'sort' => 3)),
+        '#imagePlaceholder' => $this->asset_url('/Zhuiwei/images/product-picture.jpg'),
+        '#button' => '上传图片',
+        '#previewWidth' => 100,
+        '#previewHeight' => 100
+    ));
+?>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 widget-container-span ui-sortable">
+        <?php
+
+        echo $this->widget('Box', array(
+                    '#title' => '产品信息',
+                    '#body' => array(
+                        '#content' => $code . $title . $status . $inventory . $unit . $weight . $production_time . $shipping_time
+                    )
+                ));
+        ?>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 widget-container-span ui-sortable">
+        <?php
+        echo $this->widget('Box', array(
+                '#title' => '产品品类',
+                '#body' => array(
+                    '#content' => $category
+                )
+            ));
+        ?>
+
+        <?php
+        echo $this->widget('Box', array(
+                '#title' => '买家信息',
+                '#body' => array(
+                    '#content' => $uid
+                )
+            ));
+        ?>
+
+        <?php
+        echo $this->widget('Box', array(
+                '#title' => '价格信息',
+                '#body' => array(
+                    '#content' => $trade_price . $taobao_price . $stock_price . $customer_price
+                )
+            ));
+        ?>
+    </div>
+</div>
+
+<div class="space-24"></div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 widget-container-span ui-sortable">
+        <?php
+
+        echo $this->widget('Box', array(
+                '#title' => '产品图片',
+                '#body' => array(
+                    '#content' => $picture1 . $picture2 . $picture3 . $picture4
+                )
+            ));
+        ?>
+    </div>
+</div>
+
+<div class="space-24"></div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 widget-container-span ui-sortable">
+        <?php
+
+        echo $this->widget('Box', array(
+                '#title' => '详细信息',
+                '#body' => array(
+                    '#content' => $usage . $description
+                )
+            ));
+        ?>
+    </div>
+</div>

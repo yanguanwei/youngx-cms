@@ -1,0 +1,194 @@
+<?php
+$this->asset_style('product-detail', 'css/details.css');
+$tradePrice = $this->product->getTradePrice();
+$taobaoPrice = $this->product->getTaobaoPrice();
+$stockPrice = $this->product->getStockPrice();
+$customerPrice = $this->product->getCustomerPrice();
+$unit = $this->product->getUnitLabel();
+
+$pictures = $this->product->getPictures();
+$mainPicture = null;
+if ($pictures) {
+    $mainPicture = $this->image_url(array_shift($pictures));
+}
+
+$detail = $this->product->getDetail();
+$factory = $this->product->getFactory();
+$category = $this->product->getCategory();
+?>
+<div class="w_960 product_details">
+    <div class="pro_top_add l_f3">
+        <p>
+        <?php
+        if ($category) {
+            foreach ($category->getPaths() as $cate) {
+                echo sprintf('&gt;<a href="%s">%s</a>', $this->url('products', array(
+                            'category_id' => $cate->getId(),
+                        )), $cate->getLabel());
+            }
+        }
+        ?>
+        </p>
+    </div>
+
+    <div class="pro_main_information">
+        <div class="main_information_right">
+            <div class="name l_f3">
+                <h2><?php echo $this->product->getTitle();?></h2>
+                <div class="bianhao"><p>#<?php echo $this->product->getCode();?><a href="#">关注&nbsp;&nbsp;1689</a></p></div>
+            </div>
+            <div class="company l_f3"><p><?php echo $this->seller->getFactoryName();?></p></div>
+            <div class="price l_f3">
+                <table width="530" border="0">
+                    <tr>
+                        <td>外贸价:&nbsp;<?php echo $tradePrice->getPrice();?>&nbsp;元/<?php echo $unit?>&nbsp;&nbsp;[<?php echo $tradePrice->getQuantity()?>]</td>
+                        <td>淘宝价:&nbsp;<?php echo $taobaoPrice->getPrice();?>&nbsp;元/<?php echo $unit?>&nbsp;&nbsp;[<?php echo $taobaoPrice->getQuantity()?>]</td>
+                    </tr>
+                    <tr>
+                        <td>存货价:&nbsp;<?php echo $stockPrice->getPrice();?>&nbsp;元/<?php echo $unit?>&nbsp;&nbsp;[<?php echo $stockPrice->getQuantity()?>]</td>
+                        <td>大客户推荐价:&nbsp;<?php echo $customerPrice->getPrice();?>&nbsp;元/<?php echo $unit?>&nbsp;&nbsp;[<?php echo $customerPrice->getQuantity()?>]</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="times l_f3"><table width="530" border="0">
+                    <table width="530" border="0">
+                        <tr>
+                            <td>新增订单生产周期:&nbsp;<?php echo $this->product->getProductionTime();?>&nbsp;天</td>
+                            <td>发货时间:&nbsp;<?php echo $this->product->getShippingTime();?>&nbsp;天</td>
+                        </tr>
+                        <tr>
+                            <td>库存量:&nbsp;<?php echo $this->product->getInventory();?>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="inquiry"><a href="#"><img src="<?php echo $this->asset_url('images/xunjia.jpg')?>" width="164" height="45" /></a></div>
+        </div>
+
+        <div class="main_information_left">
+
+            <img src="<?php echo $mainPicture;?>" width="380" height="380" />
+
+            <ul>
+                <?php
+                if ($pictures) {
+                    foreach ($pictures as $picture) {
+                        echo sprintf('<li><a href="#"><img src="%s" width="55" height="55" /></a></li>', $this->image_url($picture));
+                    }
+                }
+                ?>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pro_recommend">
+        <div class="pro_recommend_top">
+            <p>查看此产品的买家还会购买以下产品</p>
+        </div>
+        <div class="pro_recommend_cen">
+            <ul>
+                <li>
+                    <a href="#"><img src="<?php echo $this->asset_url("images/tuijianchanp.jpg");?>" width="150" height="150" /></a>
+                    <a href="#">太平鸟男装2013秋季新品男士长袖衬衫韩版修身...</a>
+                    <p class="price_xu">RMB:199</p>
+                    <p class="price_tui">RMB:189</p>
+                </li>
+                <li>
+                    <a href="#"><img src="<?php echo $this->asset_url("images/tuijianchanp.jpg");?>" width="150" height="150" /></a>
+                    <a href="#">太平鸟男装2013秋季新品男士长袖衬衫韩版修身...</a>
+                    <p class="price_xu">RMB:199</p>
+                    <p class="price_tui">RMB:189</p>
+                </li>
+                <li>
+                    <a href="#"><img src="<?php echo $this->asset_url("images/tuijianchanp.jpg");?>" width="150" height="150" /></a>
+                    <a href="#">太平鸟男装2013秋季新品男士长袖衬衫韩版修身...</a>
+                    <p class="price_xu">RMB:199</p>
+                    <p class="price_tui">RMB:189</p>
+                </li>
+                <li>
+                    <a href="#"><img src="<?php echo $this->asset_url("images/tuijianchanp.jpg");?>" width="150" height="150" /></a>
+                    <a href="#">太平鸟男装2013秋季新品男士长袖衬衫韩版修身...</a>
+                    <p class="price_xu">RMB:199</p>
+                    <p class="price_tui">RMB:189</p>
+                </li>
+                <li>
+                    <a href="#"><img src="<?php echo $this->asset_url("images/tuijianchanp.jpg");?>" width="150" height="150" /></a>
+                    <a href="#">太平鸟男装2013秋季新品男士长袖衬衫韩版修身...</a>
+                    <p class="price_xu">RMB:199</p>
+                    <p class="price_tui">RMB:189</p>
+                </li>
+                <li>
+                    <a href="#"><img src="<?php echo $this->asset_url("images/tuijianchanp.jpg");?>" width="150" height="150" /></a>
+                    <a href="#">太平鸟男装2013秋季新品男士长袖衬衫韩版修身...</a>
+                    <p class="price_xu">RMB:199</p>
+                    <p class="price_tui">RMB:189</p>
+                </li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="information">
+        <div class="information_top">
+            <ul>
+                <li><a href="#">产品介绍</a></li>
+                <li class="w_89"><a href="#">产品使用说明</a></li>
+                <li><a href="#">厂家介绍</a></li>
+                <li><a href="#">客户评价</a></li>
+                <li><a href="#">物流说明</a></li>
+                <li><a href="#">支付说明</a></li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+
+        <div class="information_center">
+            <div class="chanpinjieshao">
+                <?php echo $detail->getDescription();?>
+            </div>
+            <div class="shiyongshuoming">
+                <?php echo $detail->getIntroduction();?>
+            </div>
+            <div class="changjiajieshao">
+                <?php echo $factory->getDescription()?>
+            </div>
+            <div class="kehupingjia">
+                <table width="960" border="0">
+                    <tr>
+                        <td width="28"><img src="images/v_LOGO.jpg" width="15" height="15" /></td>
+                        <td width="208"><p>太平鸟风尚男装有限公司</p><p>Sep 29, 2013</p></td>
+                        <td width="710">衣服面料很不错。穿起来显气质啊 超级喜欢，。已经是第二次购买了。。希望还有第三次第四次 喜欢</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/v_LOGO.jpg" width="15" height="15" /></td>
+                        <td><p>太平鸟风尚男装有限公司</p><p>Sep 29, 2013</p></td>
+                        <td>衣服面料很不错。穿起来显气质啊 超级喜欢，。已经是第二次购买了。。希望还有第三次第四次 喜欢</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/v_LOGO.jpg" width="15" height="15" /></td>
+                        <td><p>太平鸟风尚男装有限公司</p><p>Sep 29, 2013</p></td>
+                        <td>衣服面料很不错。穿起来显气质啊 超级喜欢，。已经是第二次购买了。。希望还有第三次第四次 喜欢</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/v_LOGO.jpg" width="15" height="15" /></td>
+                        <td><p>太平鸟风尚男装有限公司</p><p>Sep 29, 2013</p></td>
+                        <td>衣服面料很不错。穿起来显气质啊 超级喜欢，。已经是第二次购买了。。希望还有第三次第四次 喜欢</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/v_LOGO.jpg" width="15" height="15" /></td>
+                        <td><p>太平鸟风尚男装有限公司</p><p>Sep 29, 2013</p></td>
+                        <td>衣服面料很不错。穿起来显气质啊 超级喜欢，。已经是第二次购买了。。希望还有第三次第四次 喜欢</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="wuliushuoming">
+
+            </div>
+            <div class="zhifushuoming">
+
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,117 @@
+<?php $this->asset_style('seller-companies', 'css/M_2.css');?>
+<div class="right_center">
+    <div class="right_center_1">
+
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="97">预付款：</td>
+                <td width="278"><input />
+                    元<span class="beizhu huozhe">或</span></td>
+                <td class="t_r" width="98">预付款：</td>
+                <td width="280"><input />
+                    %</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="right_center_2">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="98">付款银行：</td>
+                <td>
+                    <div class="xuanzeyinhang">
+                        <a class="xuanzelogo" href="#"><img src="<?php echo $this->asset_url('images/guangfalogo.jpg')?>" width="121" height="32" /></a><a class="xuanzeanniu" href="#">选择银行</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开户支行：<input /><span class="beizhu">&nbsp;&nbsp;例：招商银行宁波分行中山支行</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="t_r">银行卡号：</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">收款账号</td>
+                <td><input /></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div class="right_center_1">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="98">支付宝账号：</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">财付通账号：</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">其他1：</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">其他2：</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">其他3：</td>
+                <td><input /></td>
+            </tr>
+        </table>
+
+
+
+    </div>
+
+    <div class="right_center_2">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="97"><input type="checkbox" name="selectall2" onclick="selectit()" /></td>
+                <td>支持货到付款</td>
+            </tr>
+            <tr>
+                <td class="t_r">物流公司：</td>
+                <td><input /></td>
+            </tr>
+            <tr>
+                <td class="t_r">到付方式：</td>
+                <td><input type="checkbox" name="selectall3" onclick="selectit()" />
+                    POS机&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="selectall4" onclick="selectit()" />
+                    现金</td>
+            </tr>
+        </table>
+
+
+
+
+
+    </div>
+    <div class="right_center_1">
+        <table width="771" border="0">
+            <tr>
+                <td class="t_r" width="97"><input type="checkbox" name="selectall2" onclick="selectit()" /></td>
+                <td>承诺买家签收货物后七天内无理由退货</td>
+            </tr>
+            <tr>
+                <td class="t_r"><input type="checkbox" name="selectall" onclick="selectit()" /></td>
+                <td>承诺承担买家因产品质量问题退货而产生的退换货品的运费</td>
+            </tr>
+        </table>  </div>
+
+    <div class="dijiaoer">
+        <table width="771" border="0">
+            <tr>
+                <td width="576">&nbsp;&nbsp;</td>
+                <td width="137"><a class="tijiao" href="#">保存并发布</a></td>
+                <td width="44">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+</div>

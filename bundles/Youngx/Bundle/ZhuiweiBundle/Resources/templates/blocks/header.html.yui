@@ -1,0 +1,51 @@
+
+<div class="top">
+    <div class="w_960">
+        <div class="top_right">
+            <div class="top_nav">
+                <p>
+                    <?php
+                    $navigation = array(
+                        '粉丝买家首页' => '/',
+                        '明星卖家首页' => $this->url('platform')
+                    );
+                    $identity = $this->identity();
+                    if ($identity->isSeller()) {
+                        $navigation['上传产品'] = $this->url('seller-product-add');
+                    }
+
+                    if (!$identity->isLogged()) {
+                        $navigation['粉丝买家注册'] = $this->url('user-register-buyer');
+                        $navigation['明星卖家注册'] = $this->url('user-register-seller');
+                    } else {
+                        $navigation['我的超值存货空间'] = $this->url('user-home');
+                    }
+
+                    foreach ($navigation as $label => $url) {
+                        echo sprintf('<a href="%s">%s</a>', $url, $label);
+                    }
+                    ?>
+                </p>
+            </div>
+
+            <div class="top_search">
+                <table width="200" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td height="0" align="right" valign="center">
+                            <input name="Keyword" type="text" id="text" class="sk">
+                        </td>
+                        <td width="101" align="left">
+                            <input name="submitLogin" type="image" src="<?php echo $this->asset_url("images/search_right.jpg"); ?>" id="submit">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="top_left">
+            <a href="/"><img src="<?php echo $this->asset_url("images/LOGO.jpg"); ?>" width="336"  height="79" /></a>
+        </div>
+    </div>
+</div>

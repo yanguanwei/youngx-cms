@@ -1,0 +1,61 @@
+<?php $this->asset_style('login', 'css/logon.css');
+?>
+<div class="logoner">
+
+    <div class="logon w_940">
+        <div class="logon_right">
+            <div class="logon_center">
+                <ul>
+                    <li>
+                        <table width="407" border="0">
+                            <tr>
+                                <td width="100" class="t_r">用户名&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td width="307"><?php echo $this->widget->input('username', 'text')?></td>
+                            </tr>
+                        </table>
+
+                    </li>
+                    <li>
+                        <table width="407" border="0">
+                            <tr>
+                                <td width="100" class="t_r">密码&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td width="307"><?php echo $this->widget->input('password', 'password')?></td>
+                            </tr>
+                        </table>
+
+                    </li>
+                    <li>
+                        <table width="407" border="0">
+                            <tr>
+                                <td width="100" class="t_r">验证码&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td width="307"><?php echo $this->widget->captchaInput()?></td>
+                            </tr>
+                        </table>
+
+                    </li>
+                    <li>
+                        <table width="407" border="0">
+                            <tr>
+                                <td width="100" class="t_r"><?php echo $this->widget->input('rememberMe', 'checkbox')?>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td width="307">下次自动登录 <span style="color: #a9a9a9">使用公用电脑请勿勾选</span></td>
+                            </tr>
+                        </table>
+
+                    </li>
+                    <li>
+                        <table width="407" border="0">
+                            <tr>
+                                <td width="100" class="t_r"> &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td width="307"><input type="submit" class="logon" value="登陆" />&nbsp;&nbsp;&nbsp;
+                                    <a href="#">忘记密码</a> | <a href="<?php echo $this->url('user-register-buyer')?>">注册</a></td>
+                            </tr>
+                        </table>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+</div>

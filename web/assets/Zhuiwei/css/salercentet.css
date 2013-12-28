@@ -1,0 +1,44 @@
+/*------------------top-----------------------*/
+
+.w_960{width:960px; margin:0 auto;}
+.top{background:url(../images/TOPLINE.jpg) repeat-x center top #333333; height:79px; padding-top:4px; margin-bottom:6px;}
+.top_right{float:right; width:540px; height:79px;}
+.top_nav{height:37px;}
+.top_nav p{text-align:right; height:37px; line-height:37px;}
+.top_nav p a{margin:0 0 0 15px; color:#fff;}
+.top_search #text{background: url(../images/search_left.jpg) no-repeat left top; height:31px; width:371px; float:left; border:0; padding-left:60px; margin-right:10px;}
+.top_left{float:left; width:336px; height:79px;}
+
+/*___________center_________________-*/
+.top{margin-bottom:0;}
+
+.center_nav{padding-bottom:20px;}
+.center_nav ul li{float:left; height:77px;}
+.center_nav ul li a{display:block; height:77px; text-indent:-9999px; overflow:hidden;}
+.center_nav ul .w_126 a{background:url(../images/Maijiazhongxin_nav.jpg) no-repeat left top; width:126px;}
+.center_nav ul .w_130 a{background:url(../images/Maijiazhongxin_nav.jpg) no-repeat -126px top; width:130px;}
+.center_nav ul .w_163 a{background:url(../images/Maijiazhongxin_nav.jpg) no-repeat -256px top; width:163px;}
+.center_nav ul .w_196 a{background:url(../images/Maijiazhongxin_nav.jpg) no-repeat -419px top; width:196px;}
+.center_nav ul .w_166 a{background:url(../images/Maijiazhongxin_nav.jpg) no-repeat -615px top; width:166px;}
+.center_nav ul .w_159 a{background:url(../images/Maijiazhongxin_nav.jpg) no-repeat -781px top; width:159px;}
+
+.center_nav ul .w_126:hover a{background:url(../images/Maijiazhongxin_nav_hover.jpg) no-repeat left top; width:126px;}
+.center_nav ul .w_130:hover a{background:url(../images/Maijiazhongxin_nav_hover.jpg) no-repeat -126px top; width:130px;}
+.center_nav ul .w_163:hover a{background:url(../images/Maijiazhongxin_nav_hover.jpg) no-repeat -256px top; width:163px;}
+.center_nav ul .w_196:hover a{background:url(../images/Maijiazhongxin_nav_hover.jpg) no-repeat -419px top; width:196px;}
+.center_nav ul .w_166:hover a{background:url(../images/Maijiazhongxin_nav_hover.jpg) no-repeat -615px top; width:166px;}
+.center_nav ul .w_159:hover a{background:url(../images/Maijiazhongxin_nav_hover.jpg) no-repeat -781px top; width:159px;}
+
+
+.center_top{font-size:20px; font-weight:bold; padding-bottom:10px; border-bottom:1px solid #bfbfbf;}
+
+.center{padding:30px;}
+
+/*--------------foot--------------------*/
+
+.foot_1{height:180px; background:#2e3639;}
+.foot_1 a{color:#fff;}
+.foot_1 h2{font-size:16px; height:70px; line-height:70px;}
+.foot_cen_1{width:200px; float:left; height:180px; padding-left:40px;}
+.foot_cen_1 ul li{height:26px; line-height:26px;}
+.foot_2{height:20px; background:#1e2629;}

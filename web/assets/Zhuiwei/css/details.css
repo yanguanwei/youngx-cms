@@ -1,0 +1,63 @@
+/*------------------top-----------------------*/
+
+.w_960{width:960px; margin:0 auto;}
+.top{background:url(../images/TOPLINE.jpg) repeat-x center top #333333; height:79px; padding-top:4px; margin-bottom:6px;}
+.top_right{float:right; width:540px; height:79px;}
+.top_nav{height:37px;}
+.top_nav p{text-align:right; height:37px; line-height:37px;}
+.top_nav p a{margin:0 0 0 15px; color:#fff;}
+.top_search #text{background: url(../images/search_left.jpg) no-repeat left top; height:31px; width:371px; float:left; border:0; padding-left:60px; margin-right:10px;}
+.top_left{float:left; width:336px; height:79px;}
+
+/*___________center_________________-*/
+.l_f3{ border-bottom:1px solid #f3f3f3;}
+.pro_top_add{height:16px; background:url(../images/home_tite.jpg) no-repeat left top; line-height:16px; padding-left:25px; padding-bottom:5px; margin-bottom:10px;}
+.pro_top_add p a{color:#878787; padding:0 10px;}
+.pro_main_information{height:460px; padding-bottom:10px;}
+.main_information_left{width:385px;}
+.main_information_left ul{padding-top:10px;}
+.main_information_left ul li{float:left; margin:5px; border:1px solid #fff;}
+.main_information_left ul li:hover{border:1px solid #ad3939;}
+
+/*right*/
+.main_information_right{width:530px; float:right; padding-right:10px;}
+.name{height:90px;}
+.name h2{font-size:18px; color:#333; line-height:60px; height:60px;}
+.name .bianhao{color:#ababab; background:url(../images/guanzhu_bg.jpg) no-repeat 110px center; height:17px; line-height:17px;}
+.name .bianhao a{color:#fff; margin-left:28px;}
+.company{height:46px; line-height:46px;}
+.price,.times{height:96px; line-height:32px;}
+.price table,.times table{padding-top:15px;}
+.inquiry{padding:10px 0;}
+
+/*recommend*/
+.pro_recommend_top{ height:20px; line-height:20px; text-indent:3px; background:url(../images/tuijianchanp_bg.jpg) no-repeat left top;border-bottom:1px solid #eeeeee; }
+.pro_recommend_cen ul{padding-top:10px; padding-bottom:20px;}
+.pro_recommend_cen ul li{ width:150px; padding:5px; float:left;}
+.pro_recommend_cen ul li a{color:#666; line-height:16px;}
+.pro_recommend_cen ul li .price_xu{ padding-top:5px;color:#a0a0a0; text-decoration:line-through; line-height:16px;}
+.pro_recommend_cen ul li .price_tui{color:#ad3231; line-height:16px;}
+
+
+/*information*/
+.information_top{border-bottom:2px solid #ad3231;}
+.information_top ul li{float:left; width:81px; height:20px; line-height:20px; text-indent:14px;}
+.information_top ul li a{display:block; color:#fff; background:url(../images/xiangqingyetiet1.jpg) no-repeat left top;}
+.information_top ul li:hover a{background:url(../images/xiangqingyetiet1_hover.jpg) no-repeat left top;}
+.information_top ul .w_89{width:89px; text-indent:6px;}
+.information_top ul .w_89 a{background:url(../images/xiangqingyetiet2.jpg) no-repeat left top;}
+.information_top ul .w_89:hover a{background:url(../images/xiangqingyetiet2_hover.jpg) no-repeat left top;}
+
+/*kehupingjia*/
+.kehupingjia table tr{height:84px; background:url(../images/tuijianchanp_bg.jpg)}
+.kehupingjia table{text-indent:5px;}
+
+
+/*--------------foot--------------------*/
+
+.foot_1{height:180px; background:#2e3639;}
+.foot_1 a{color:#fff;}
+.foot_1 h2{font-size:16px; height:70px; line-height:70px;}
+.foot_cen_1{width:200px; float:left; height:180px; padding-left:40px;}
+.foot_cen_1 ul li{height:26px; line-height:26px;}
+.foot_2{height:20px; background:#1e2629;}

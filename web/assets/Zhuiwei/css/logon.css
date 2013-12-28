@@ -1,0 +1,33 @@
+/*------------------top-----------------------*/
+
+.w_960{width:960px; margin:0 auto;}
+.w_940{ width:940px; margin:0 auto;}
+.top{background:url(../images/TOPLINE.jpg) repeat-x center top #333333; height:79px; padding-top:4px;}
+.top_right{float:right; width:540px; height:79px;}
+.top_nav{height:37px;}
+.top_nav p{text-align:right; height:37px; line-height:37px;}
+.top_nav p a{margin:0 0 0 15px; color:#fff;}
+.top_search #text{background: url(../images/search_left.jpg) no-repeat left top; height:31px; width:371px; float:left; border:0; padding-left:60px; margin-right:10px;}
+.top_left{float:left; width:336px; height:79px;}
+
+/*___________center_________________-*/
+.t_r{text-align:right;}
+
+
+.logoner{background:#f9f9f9;}
+.logon{background:url(../images/logon_logo.jpg) no-repeat left 133px; padding-bottom:110px;}
+.logon_right{width:435px; background:url(../images/logon_yy.jpg) no-repeat left bottom; padding-bottom:46px; padding-top:74px; float:right;}
+.logon_center{width:407px; background:#fff; margin:0 auto; border:1px solid #e7e7e7;}
+.logon_center ul li{height:70px; border-bottom:1px solid #e7e7e7;}
+.logon_center ul li table{line-height:70px;}
+.logon_center a{ color:#333;}
+.logon_center a.logon{ padding:8px 37px; background:#d30a22; color:#fff; font-size:18px;}
+
+/*--------------foot--------------------*/
+
+.foot_1{height:180px; background:#2e3639;}
+.foot_1 a{color:#fff;}
+.foot_1 h2{font-size:16px; height:70px; line-height:70px;}
+.foot_cen_1{width:200px; float:left; height:180px; padding-left:40px;}
+.foot_cen_1 ul li{height:26px; line-height:26px;}
+.foot_2{height:20px; background:#1e2629;}

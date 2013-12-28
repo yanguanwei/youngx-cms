@@ -1,0 +1,48 @@
+<?php $this->extend('html.yui@Framework'); ?>
+
+<?php $this->block('title', '取回密码')?>
+
+<?php $body = $this->block('body')->start();?>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+
+            <?php
+            foreach ($this->flash_messages() as $type => $messages) {
+                foreach ($messages as $message) {
+                    echo sprintf('<div class="alert alert-%s">%s</div>', $type, $message);
+                }
+            }
+
+            $form = $this->widget('Form', array(
+                    '#form' => $this->form,
+                ))->start();
+
+            echo '<fieldset>';
+
+            echo $form->field('token')->hidden();
+
+            echo $form->field('password')->label('密码')->password(array(
+                    '#size' => 'large',
+                    '#span' => 10
+                ));
+
+            echo '<div class="clearfix"></div>';
+
+            echo $form->field('password_confirm')->label('密码确认')->password(array(
+                    '#size' => 'large',
+                    '#span' => 10
+                ));
+
+            echo '<p class="center span5"><button type="submit" class="btn btn-primary">提交</button></p>';
+
+            echo '</fieldset>';
+
+            echo $form->end();
+            ?>
+
+
+        </div><!--/fluid-row-->
+    </div><!--/.fluid-container-->
+
+<?php $body->end()?>

@@ -1,0 +1,80 @@
+<?php
+$this->asset_style('register-buyer', 'css/zc5.css');
+?>
+
+<div class="w_940 zhuce_top">
+    <a href="<?php echo $this->url('user-register-buyer')?>">切换成为买家注册&nbsp;&nbsp;&nbsp;&nbsp;>></a>
+    <div class="zhucetite">
+        <h2>卖家注册</h2>
+
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="w_960 zclc">
+</div>
+
+<div class="w_940 zcnr">
+    <div class="zcnr_left">
+
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">用户名&nbsp;&nbsp;<font color="#FF0000">*</font>&nbsp;&nbsp;</td>
+                <td width="500"><?php echo $this->widget->input('username', 'text');?>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="<?php echo $this->asset_url('images/lanse.jpg')?>" width="12" height="12" />
+                    <span class="beizhu">请输入会员名，以字母开头，4-20位字母或数字</span></td>
+            </tr>
+        </table>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">企业名称&nbsp;&nbsp;<font color="#FF0000">*</font>&nbsp;&nbsp;</td>
+                <td width="500"><?php echo $this->widget->input('factory', 'text');?></td>
+            </tr>
+        </table>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">E-mail&nbsp;&nbsp;<font color="#FF0000">*</font>&nbsp;&nbsp;</td>
+                <td width="500"><?php echo $this->widget->input('email', 'text');?></td>
+            </tr>
+        </table>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">登录密码&nbsp;&nbsp;<font color="#FF0000">*</font>&nbsp;&nbsp;</td>
+                <td width="500"><?php echo $this->widget->input('password', 'password');?></td>
+            </tr>
+        </table>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">确认密码&nbsp;&nbsp;<font color="#FF0000">*</font>&nbsp;&nbsp;</td>
+                <td width="500"><?php echo $this->widget->input('password_confirm', 'password');?></td>
+            </tr>
+        </table>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">验证码&nbsp;&nbsp;<font color="#FF0000">*</font>&nbsp;&nbsp;</td>
+                <td width="500"><?php echo $this->widget->captchaInput();?></td>
+            </tr>
+        </table>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r"><input type="checkbox" />&nbsp;&nbsp;</td>
+                <td width="500"><a href="#">《追尾网服务条款》</a></td>
+            </tr>
+        </table>
+        <table width="620" border="0">
+            <tr>
+                <td width="120" class="t_r">&nbsp;&nbsp;</td>
+                <td width="500"><input type="submit" class="zcanniu" value="注册" /></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="zcnr_right">
+        <h2>账号注册</h2>
+        <p>亲爱的买家用户，欢迎注册追尾网，为了让交易更加便捷，请认证填写您的资料。
+        </p>
+    </div>
+    <div class="clear"></div>
+
+
+</div>

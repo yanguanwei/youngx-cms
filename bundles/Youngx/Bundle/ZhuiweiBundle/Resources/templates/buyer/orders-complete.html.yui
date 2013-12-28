@@ -1,0 +1,82 @@
+<?php $this->asset_style('buyer-sellers', 'css/mai_2.css');?>
+<div class="right_center_700">
+    <div class="cen_700_top"></div>
+
+    <ul>
+
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td colspan="2" class="t_i_2 jiaoyishijian" >完成交易于2013-10-10</td>
+                </tr>
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td colspan="2" class="t_i_2 jiaoyishijian" >完成交易于2013-10-10</td>
+                </tr>
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td colspan="2" class="t_i_2 jiaoyishijian" >完成交易于2013-10-10</td>
+                </tr>
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li><li>
+            <table width="700" border="0">
+                <tr>
+                    <td colspan="2" class="t_i_2 jiaoyishijian" >完成交易于2013-10-10</td>
+                </tr>
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+
+        <li>
+            <table width="700" border="0">
+                <tr>
+                    <td colspan="2" class="t_i_2 jiaoyishijian" >完成交易于2013-10-10</td>
+                </tr>
+                <tr>
+                    <td width="437" class="t_i_2" >太平鸟男装男士长袖格子衬衫2013秋季修身纯棉衬衣韩版潮</td>
+                    <td width="263" class="beizhu" >#81112365549</td>
+                </tr>
+            </table>
+        </li>
+
+
+
+
+
+
+    </ul>
+
+    <div class="yema">
+        <p>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">下一页</a>
+        <div class="clear"></div>
+        </p>
+    </div>
+
+
+</div>
